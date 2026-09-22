@@ -319,9 +319,23 @@
     gap: 18px;
   }
 
+  .athlete-photo-wrap {
+    height: 300px;
+  }
+
   .spec-list {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .spec-spotlight-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .treatment-spotlight-card {
+    padding: 22px 18px;
+    margin: 26px 0;
   }
 
   .footer-grid {
@@ -372,6 +386,27 @@
 
   [data-theme="light"] .stat-cell {
     border-bottom-color: rgba(15, 36, 28, 0.1);
+  }
+
+  .treatment-spotlight-card {
+    padding: 18px 14px;
+    border-radius: 18px;
+  }
+
+  .athlete-photo-wrap {
+    height: 270px;
+  }
+
+  .spotlight-title {
+    font-size: 1.25rem;
+  }
+
+  .spotlight-footer-tag {
+    font-size: 0.74rem;
+    padding: 8px 10px;
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
   }
 
   .dock-container {
