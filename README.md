@@ -124,14 +124,12 @@ Revive/
 ├── athletes.html              # International Athletes Case Studies (2x2 Grid)
 ├── clinic-tour.html           # Photo Tour of the Sector 62 Clinic Suite
 ├── contact.html               # Timings, Google Maps Directions & Contact Desk
-├── css/
-│   ├── style.css              # Design tokens, themes, typography & base layout
-│   ├── components.css         # Glass cards, spotlight containers, athlete cards
-│   ├── animations.css         # Liquid mesh keyframes, orb physics & glow states
-│   └── responsive.css         # Tablet & mobile media queries down to 320px
-├── js/
-│   ├── main.js                # Core engine: themes, Web Audio clicks, lightbox, URLs
-│   └── animations.js          # IntersectionObserver reveals, counters & 3D tilt
+├── style.css                  # Design tokens, themes, typography & base layout
+├── components.css             # Glass cards, spotlight containers, athlete cards
+├── animations.css             # Liquid mesh keyframes, orb physics & glow states
+├── responsive.css             # Tablet & mobile media queries down to 320px
+├── main.js                    # Core engine: themes, Web Audio clicks, lightbox, URLs
+├── animations.js              # IntersectionObserver reveals, counters & 3D tilt
 ├── Revive_Logo.png            # Official Radheyshyam Arogya Dham Logo
 ├── Revive_Favicon.png         # High-resolution clinical favicon
 ├── doctor_full.png            # Full-length clinical portrait of Dr. Amarkant Gaur
@@ -148,12 +146,12 @@ Revive/
 
 ## 🚀 Clean URL Routing & Deployment
 
-The codebase is built with zero runtime dependencies (vanilla modern HTML5, CSS3, and ES6 JavaScript). Deployable instantaneously to any modern hosting environment:
+The codebase is built with zero runtime dependencies (vanilla modern HTML5, CSS3, and ES6 JavaScript) in a single flat root directory for zero-issue cloud deployment:
 
 ### 1. GitHub Pages
 1. Push repository to GitHub.
 2. Under **Settings → Pages**, select `main` branch root `/`.
-3. The custom `404.html` and `js/main.js` automatically handle clean URL rewriting and route redirection!
+3. The custom `404.html` and `main.js` automatically handle clean URL rewriting and route redirection!
 
 ### 2. Vercel
 Configuration is pre-packaged in `vercel.json`:
@@ -181,7 +179,7 @@ Configuration is pre-packaged in `_redirects`:
 
 - **Primary Consultation Line & WhatsApp**: [+91 9015321590](tel:9015321590)
 - **Secondary Contact Desk**: [+91 8506952310](tel:8506952310)
-- **In-Clinic Therapy Hours**: `5:00 PM – 9:00 PM Daily`
+- **In-Clinic Therapy Hours**: `5:00 PM – 9:00 PM (Monday to Saturday)`
 - **Clinic Address**: Ground Floor, C-56/21, Near Prerna Bhawan, Sector 62, Noida, Uttar Pradesh 201309
 - **Official Instagram**: [@pain_management_at_rad](https://www.instagram.com/pain_management_at_rad)
 
